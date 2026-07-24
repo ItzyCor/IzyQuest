@@ -835,18 +835,3 @@ select#task-priority {
     width: 90% !important;
     padding: 15px !important;
 }
-/* --- AGREGAR ESTO AL FINAL DE TU STYLE.CSS --- */
-
-/* 1. Corrección del layout (Lobby) para móviles */
-@media (max-width: 768px) {
-.lobby-container {
-grid-template-columns: 1fr !important;
-gap: 1rem !important;
-}
-}
-
-/* 2. Estilos para los modales (limpios y únicos) */
-.modal-content {
-width: 90% !important;
-padding: 15px !important;
-}
