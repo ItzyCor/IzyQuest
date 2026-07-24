@@ -15,7 +15,7 @@ let currentWorkspaceId = null;
 let selectedColor = "rgba(6, 182, 212, 0.3)";
 let currentTaskFile = null; // Variable para almacenar el archivo temporalmente
 let userProfile = JSON.parse(localStorage.getItem('userProfile')) || {
-    name: "¡Hola, Kari!",
+    name: "¡Hola!",
     avatar: "🦝", 
     xp: 0,
     level: 1
